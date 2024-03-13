@@ -1,7 +1,10 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  background-color: #426bb9;
   font-size: var(--body-font-size-s);
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
 }
 
 footer .footer {
@@ -11,4 +14,10 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+  word-spacing: 5px;
+}
+
+footer .icon {
+  height: 94px;
+  width: 230px;
 }

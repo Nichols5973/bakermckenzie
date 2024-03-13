@@ -148,7 +148,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 316px;
   height: auto;
 }
 
@@ -164,7 +164,9 @@ header nav .nav-sections {
 header nav[aria-expanded="true"] .nav-sections {
   display: block;
   visibility: visible;
-  align-self: start;
+  align-self: end;
+  padding-bottom: 10px;
+  margin-left: 300px;
 }
 
 header nav .nav-sections ul  {

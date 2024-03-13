@@ -1,7 +1,7 @@
 .table {
   width: 100%;
   overflow-x: auto;
-  border: 1px solid;
+  border: 0px solid;
 }
 
 .table table {
@@ -26,15 +26,15 @@
 
 .table table thead tr {
   border-top: none;
-  border-bottom: 1px solid;
+  border-bottom: 0px solid;
 }
 
 .table table tbody tr {
-  border-bottom: 1px solid;
+  border-bottom: 0px solid;
 }
 
 .table table th {
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .table table th, .table table td {
@@ -49,5 +49,5 @@
 
 /* bordered variant */
 .table.bordered table th, .table.bordered table td {
-  border: 1px solid;
+  border: 0px solid;
 }

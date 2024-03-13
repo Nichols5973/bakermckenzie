@@ -1,3 +1,13 @@
+main .teaser-container {
+    padding: 0;
+  }  
+
+.teaser-wrapper {
+    max-width: unset !important;
+    height: 485px;
+    padding: 0px;
+  }
+
 .teaser > div {
     display: grid;
     grid-template-areas: "teaser";
@@ -12,17 +22,17 @@
 /* teaser image */
 .teaser > div > div:first-child {
     height: 40pc;
-    max-height: 40pc;
+    max-height: 485px;
     width: 100%;
 }
 
 /* teaser content */
 .teaser > div > div:last-child {
-    background-color: #fff;
+    background-color: transparent;
     min-height: 180px;
-    width: 75%;
+    /* width: 100%; */
     padding: 0 28px;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0;
     line-height: 1.75;
 }
@@ -38,14 +48,44 @@
     object-fit: cover;
     object-position: top;
     width: 100%;
-    height: 100%;
+    height: 485px;
 }
 
 .teaser h2 {
     font-family: var(--body-font-family);
-    margin: .5em 0;
 }
 
 .teaser h2 a {
     color: #202020
 }
+
+.teaser ul li a {
+    font-family: var(--body-font-family);
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--background-color);
+    background-color: #426bb9;
+    margin: 16px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    white-space: normal;
+  }
+
+  .teaser ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 690px;;
+    margin: auto;
+  }

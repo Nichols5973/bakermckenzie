@@ -1,19 +1,32 @@
+.cards-wrapper {
+  max-width: unset !important;
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   grid-gap: 16px;
 }
 
 .cards > ul > li {
   border: 1px solid var(--dark-color);
-  background-color: var(--background-color)
+  background-color: var(--background-color);
+  position: relative;
+  color: #FFF;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  position: absolute;
+  top: 50%;
+  text-align: left;
+  width: 100%;
+}
+
+.cards .cards-card-body h3 {
+  border-bottom: 0px;
 }
 
 .cards .cards-card-image {
@@ -26,6 +39,16 @@
 
 .cards > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 5 / 3;
   object-fit: cover;
+}
+
+.cards .cards-card-body > ul {
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  grid-auto-flow: column;
+  list-style: none;
+  background-image: url("https://www.otsuka.com/en/img/bg_blue.png");
+  height: 105px;
+  padding: 10px;
 }
