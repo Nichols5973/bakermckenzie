@@ -67,7 +67,6 @@
     grid-auto-flow: column;
     background-image: none;
     background-color: #426bb9;
-    height: 225px;
     top: 10%;
   }
   .cards > ul {
