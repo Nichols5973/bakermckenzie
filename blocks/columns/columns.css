@@ -25,9 +25,11 @@
     flex-direction: unset;
     gap: 32px;
   }
-
   .columns > div > div {
     flex: 1;
     order: unset;
   }
+  .columns > div > .columns-img-col img {
+    padding-bottom: 10px;
+}
 }
