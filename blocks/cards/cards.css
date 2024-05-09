@@ -52,3 +52,23 @@
   height: 105px;
   padding: 10px;
 }
+
+@media (width <= 900px) {
+  .cards .cards-card-body {
+    background-image: none;
+    background-color: #426bb9;
+    display: block;
+    height: 225px;
+    top: 0%;
+  }
+  
+  .cards .cards-card-body > ul {
+    display: grid;
+    grid-template-rows: repeat(10, min-content);
+    grid-auto-flow: column;
+    background-image: none;
+    background-color: #426bb9;
+    height: 225px;
+    top: 10%;
+  }
+}

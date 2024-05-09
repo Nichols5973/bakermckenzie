@@ -93,3 +93,9 @@ main .carousel-buttons button {
 main .carousel-buttons button.selected {
   background-color: var(--link-color);
 }
+
+@media (width <= 900px) {
+ main .carousel > div {
+    min-height: 120px;
+  }
+}

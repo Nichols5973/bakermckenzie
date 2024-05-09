@@ -89,3 +89,26 @@ main .teaser-container {
     width: 690px;;
     margin: auto;
   }
+
+  @media (width <= 900px) {
+    .teaser-wrapper {
+        height: unset;
+    }
+    .teaser > div {
+      background-image: none;
+      display: block;
+    }
+    .teaser ul {
+        display: block;
+        list-style: none;
+        justify-content: space-between;
+        margin: auto;
+        width: 200px;
+    }
+    .teaser img {
+        display: none;
+    }
+    .teaser > div > div:first-child {
+        height: 15pc;
+    }
+  }
