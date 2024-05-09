@@ -96,7 +96,6 @@ main .teaser-container {
     }
     .teaser > div {
       background-image: none;
-      display: block;
     }
     .teaser ul {
         display: block;
