@@ -110,4 +110,7 @@ main .teaser-container {
     .teaser > div > div:first-child {
         height: 15pc;
     }
+    .teaser > div > div p {
+        text-align: center;
+    }
   }
