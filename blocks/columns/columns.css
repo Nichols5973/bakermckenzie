@@ -17,6 +17,7 @@
 
 .columns > div > .columns-img-col img {
   display: block;
+  padding-bottom: 10px;
 }
 
 @media (width >= 900px) {
@@ -29,7 +30,4 @@
     flex: 1;
     order: unset;
   }
-  .columns > div > .columns-img-col img {
-    padding-bottom: 10px;
-}
 }
