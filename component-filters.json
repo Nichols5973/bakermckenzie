@@ -21,6 +21,7 @@
   {
     "id": "section",
     "components": [
+      "accordian",
       "text",
       "image",
       "button",
